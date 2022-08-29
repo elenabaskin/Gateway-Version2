@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: #fff5ed;
+  overflow: hidden;
+  font-size: 20px;
+  color: #afcbff;
+}
+
+.logo {
+  font-family: "Shrikhand", cursive;
+  font-size: 1.2em;
+  display: inline-block;
+  padding: 14px 16px;
+  text-align: center;
+  outline: 5px white;
+}
+.nav a {
+  float: left;
+  color: #afcbff;
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.hero-image {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /*hero image*/
+  background-image: url("https://i.pinimg.com/originals/de/11/d2/de11d2e63a023cc6126f0c7e6c8aa54f.jpg");
+  position: relative;
+  background-size: cover;
+}
+
+.hero-title {
+  color: #fff5ed;
+  font-size: 5em;
+  -webkit-text-stroke: 1px white;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  color: #7f7f7f;
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  background-color: #fff5ed;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Jost", sans-serif;
+}
+
+input {
+  text-decoration: none;
+}
+
+.hero-button {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer {
+  /*footer background*/
+  padding: 10px 0;
+  background-color: #fff5ed;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0 5px;
+}
+/*how the icons look*/
+.icons a {
+  margin-right: 0;
+  color: #afcbff;
+  font-size: 15px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 10px;
+}

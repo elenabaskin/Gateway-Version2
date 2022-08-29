@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Spylled Mylk</title>
+    <link href="contact.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      h1 {
+        font-family: "Shrikhand", cursive;
+      }
+      p {
+        font-family: "Jost", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav">
+      <p class="logo">Spylled Mylk</p>
+      <a href="index.html"><p>Home</p></a>
+      <a href="menu.html"><p>Menu</p></a>
+      <a href="contact.html"><p>Contact Us</p></a>
+    </nav>
+    <div class="container">
+      <!-- <div class="name">-->
+      <label for="fname"><h2>First Name</h2></label>
+      <input
+        type="text"
+        id="fname"
+        name="firstname"
+        placeholder="First Name Here"
+      />
+
+      <label for="lname"><h2>Last Name</h2></label>
+      <input
+        type="text"
+        id="lname"
+        name="lastname"
+        placeholder="Last Name Here"
+      />
+      <!--</div>-->
+
+      <label for="email"><h2>Email</h2></label>
+      <input
+        type="text"
+        id="email"
+        name="email"
+        placeholder="Email Address Here"
+      />
+      <br />
+
+      <label for="inquirytype"><h2>Inquiry Type</h2></label>
+      <select id="inquirytype" name="inquirytype">
+        <option value="suggestions">Suggestions</option>
+        <option value="catering">Catering</option>
+        <option value="events">Events</option>
+        <option value="franchise">Franchise Opportunities</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="subject"><h2>Subject</h2></label>
+      <textarea
+        id="subject"
+        name="subject"
+        placeholder="Tell us or ask us something here!"
+        style="height: 200px"
+      ></textarea>
+
+      <input type="submit" value="Submit" />
+    </div>
+
+    <footer class="footer">
+      <div class="icons">
+        <ul class="footer menu">
+          <li>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+          </li>
+          <li><a href="https://www.youtube.com/" class="fa fa-youtube"></a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

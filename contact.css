@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: #ffffd1;
+  overflow: hidden;
+  font-size: 20px;
+  color: #afcbff;
+}
+
+.logo {
+  font-family: "Shrikhand", cursive;
+  font-size: 1.2em;
+  display: inline-block;
+  padding: 14px 16px;
+  text-align: center;
+  outline: 5px white;
+}
+.nav a {
+  float: left;
+  color: #afcbff;
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+label {
+  font-family: "Jost", sans-serif;
+}
+
+input[type="text"] {
+  width: 50%;
+  margin: 5px 0;
+  border-color: #ffffd1;
+  border-radius: 4px;
+}
+
+select {
+  width: 50%;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffffd1;
+}
+
+textarea {
+  width: 100%;
+  border-color: #ffffd1;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/*.name {
+    display:flex;
+    flex-wrap: wrap;
+  }*/
+
+input[type="submit"] {
+  background-color: #ffffd1;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Jost", sans-serif;
+}
+
+.input[type="submit"]:hover {
+  background-color: #6eb5ff;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #afcbff;
+  padding: 20px;
+  color: #ffffd1;
+  font-size: 20px;
+}
+
+.footer {
+  padding: 10px 0;
+  background-color: #ffffd1;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.icons a {
+  margin-right: 0;
+  color: #afcbff;
+  font-size: 15px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 10px;
+}

@@ -87,7 +87,7 @@ input[type="submit"] {
   font-size: 20px;
 }
 
-.footer {
+footer {
   padding: 10px 0;
   background-color: #ffffd1;
   display: flex;

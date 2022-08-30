@@ -37,7 +37,6 @@ main {
   color: #f3ffe3;
   -webkit-text-stroke: 1px #ececec;
   background-color: #afcbff;
-  padding: auto;
   max-height: fit-content;
 }
 
@@ -47,7 +46,6 @@ main {
   font-size: 1.2rem;
   background-color: #f3ffe3;
   color: #a9a9a9;
-  padding: auto;
 }
 
 .menu {
@@ -82,7 +80,7 @@ header {
   text-align: center;
 }
 
-section {
+.section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -101,10 +99,9 @@ figure {
 img {
   width: 150px;
   height: 150px;
-  padding: 0 10px;
 }
 
-figcaption {
+.menu_item {
   text-align: center;
   font-size: 15px;
   color: #7f7f7f;

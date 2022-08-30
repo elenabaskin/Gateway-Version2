@@ -27,6 +27,15 @@ body {
   font-size: 18px;
 }
 
+header {
+  font-family: "Shrikhand", cursive;
+  color: #ffffd1;
+  -webkit-text-stroke: 1px #afcbff;
+  background-color: white;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
 h2 {
   font-size: 20px;
 }

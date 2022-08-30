@@ -75,7 +75,7 @@ header {
 .menu_desc {
   font-family: "Jost", sans-serif;
   font-size: 1rem;
-  color: #333333;
+  color: #757373;
   background-color: #ececec;
   width: 100vw;
   margin: 1rem;
@@ -113,8 +113,8 @@ figcaption {
 
 footer {
   /*footer background*/
-  padding: 10px 0;
-  background-color: #f3ffe3;
+
+  background-color: #afcbff;
   display: flex;
   align-items: center;
 }
@@ -126,8 +126,9 @@ li {
 /*how the icons look*/
 .icons a {
   margin-right: 0;
-  color: #afcbff;
-  font-size: 15px;
+  margin-left: auto;
+  color: #f3ffe3;
+  font-size: 20px;
   display: flex;
   align-content: center;
   justify-content: space-between;

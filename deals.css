@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: #fbe4ff;
+  overflow: hidden;
+  font-size: 20px;
+  color: #afcbff;
+  max-height: 5rem;
+}
+
+.logo {
+  font-family: "Shrikhand", cursive;
+  font-size: 1.2em;
+  float: left;
+  padding: 14px 16px;
+}
+.nav a {
+  float: left;
+  color: #afcbff;
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer {
+  /*footer background*/
+  padding: 10px 0;
+  background-color: #fbe4ff;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0 5px;
+}
+/*how the icons look*/
+.icons a {
+  margin-right: 0;
+  color: #afcbff;
+  font-size: 15px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 10px;
+}

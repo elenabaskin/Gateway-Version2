@@ -8,15 +8,14 @@ body {
   overflow: hidden;
   font-size: 20px;
   color: #afcbff;
+  max-height: 5rem;
 }
 
 .logo {
   font-family: "Shrikhand", cursive;
   font-size: 1.2em;
-  display: inline-block;
+  float: left;
   padding: 14px 16px;
-  text-align: center;
-  outline: 5px white;
 }
 .nav a {
   float: left;
@@ -60,15 +59,8 @@ input[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
   font-family: "Jost", sans-serif;
-}
-
-input {
-  text-decoration: none;
-}
-
-.hero-button {
   font-size: 25px;
-  color: white;
+  color: #afcbff;
   text-align: center;
   text-decoration: none;
 }

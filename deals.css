@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: white;
 }
 
 .nav {
@@ -25,6 +26,39 @@ body {
   padding: 14px;
   text-decoration: none;
   font-size: 18px;
+}
+
+.coupon {
+  border: 5px dotted #afcbff;
+  width: 80%;
+  border-radius: 15px;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 10px;
+}
+
+h3 {
+  font-family: "Shrikhand", cursive;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #afcbff;
+  background-color: #fbe4ff;
+}
+
+h2 {
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  color: #afcbff;
+  background-color: #fbe4ff;
+}
+
+.promo {
+  background-color: #f3ffe3;
+  font-size: 1.2rem;
+}
+
+.expire {
+  color: #ffabab;
 }
 
 .footer {

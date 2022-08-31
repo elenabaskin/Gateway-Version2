@@ -8,7 +8,7 @@ body {
   background-color: #fbe4ff;
   overflow: hidden;
   font-size: 20px;
-  color: #afcbff;
+  color: #1a6aff;
   max-height: 5rem;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 .nav a {
   float: left;
-  color: #afcbff;
+  color: #1a6aff;
   font-family: "Jost", sans-serif;
   text-align: center;
   padding: 14px;
@@ -30,9 +30,9 @@ body {
 
 header {
   font-family: "Shrikhand", cursive;
-  color: #afcbff;
-  -webkit-text-stroke: 1px #fbe4ff;
-  background-color: #f3ffe3;
+  color: #1a6aff;
+  -webkit-text-stroke: 1px #fef5ff;
+  background-color: #f9fff0;
   font-size: 1.3rem;
   text-align: center;
 }
@@ -44,7 +44,7 @@ header {
 }
 
 .coupon {
-  border: 5px dotted #afcbff;
+  border: 5px dotted #1a6aff;
   border-radius: 15px;
   margin: 0 auto;
   max-width: 500px;
@@ -55,15 +55,15 @@ h3 {
   font-family: "Shrikhand", cursive;
   text-align: center;
   font-size: 1.5rem;
-  color: #afcbff;
-  background-color: #fbe4ff;
+  color: #1a6aff;
+  background-color: #fef5ff;
 }
 
 h2 {
   font-family: "Jost", sans-serif;
   text-align: center;
-  color: #afcbff;
-  background-color: #fbe4ff;
+  color: #1a6aff;
+  background-color: #fef5ff;
 }
 
 img {
@@ -75,18 +75,18 @@ img {
 }
 
 mark {
-  background-color: #f3ffe3;
+  background-color: #96ff2e;
   font-size: 1.2rem;
 }
 
 .expire {
-  color: #ffabab;
+  color: #ff3838;
 }
 
 footer {
   /*footer background*/
   padding: 10px 0;
-  background-color: #fbe4ff;
+  background-color: #fef5ff;
   display: flex;
   align-items: center;
 }
@@ -98,7 +98,7 @@ li {
 /*how the icons look*/
 .icons a {
   margin-right: 0;
-  color: #afcbff;
+  color: #1a6aff;
   font-size: 15px;
   display: flex;
   align-content: center;

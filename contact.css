@@ -7,7 +7,7 @@ body {
   background-color: #ffffd1;
   overflow: hidden;
   font-size: 20px;
-  color: #afcbff;
+  color: #1a6aff;
   max-height: 5rem;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 .nav a {
   float: left;
-  color: #afcbff;
+  color: #1a6aff;
   font-family: "Jost", sans-serif;
   text-align: center;
   padding: 14px;
@@ -30,7 +30,7 @@ body {
 header {
   font-family: "Shrikhand", cursive;
   color: #ffffd1;
-  -webkit-text-stroke: 1px #afcbff;
+  -webkit-text-stroke: 1px #1a6aff;
   background-color: white;
   font-size: 1.3rem;
   text-align: center;
@@ -52,7 +52,7 @@ input[type="text"] {
 select {
   border: none;
   border-radius: 4px;
-  background-color: #ffffd1;
+  background-color: white;
   width: 50%;
   height: 2rem;
 }
@@ -72,8 +72,8 @@ textarea {
   }*/
 
 input[type="submit"] {
-  background-color: #ffffd1;
-  color: #afcbff;
+  background-color: white;
+  color: #1a6aff;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -82,20 +82,20 @@ input[type="submit"] {
 }
 
 .input[type="submit"]:hover {
-  background-color: #6eb5ff;
+  background-color: #afcbff;
 }
 
 .container {
   border-radius: 5px;
-  background-color: #afcbff;
+  background-color: #ffffd1;
   padding: 20px;
-  color: #ffffd1;
+  color: #1a6aff;
   font-size: 20px;
 }
 
 footer {
   padding: 10px 0;
-  background-color: #ffffd1;
+  background-color: white;
   display: flex;
   align-items: center;
 }
@@ -107,7 +107,7 @@ li {
 
 .icons a {
   margin-right: 0;
-  color: #afcbff;
+  color: #1a6aff;
   font-size: 15px;
   display: flex;
   align-content: center;

@@ -1,14 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f3ffe3;
+  background-color: #f9fff0;
 }
 
 .nav {
-  background-color: #f3ffe3;
+  background-color: #f9fff0;
   overflow: hidden;
   font-size: 20px;
-  color: #afcbff;
+  color: #1a6aff;
   max-height: 5rem;
   padding: 0;
 }
@@ -21,7 +21,7 @@ body {
 }
 .nav a {
   float: left;
-  color: #afcbff;
+  color: #1a6aff;
   font-family: "Jost", sans-serif;
   text-align: center;
   padding: 14px;
@@ -34,9 +34,9 @@ main {
   text-align: center;
   font-size: 2rem;
   vertical-align: top;
-  color: #f3ffe3;
-  -webkit-text-stroke: 1px #ececec;
-  background-color: #afcbff;
+  color: #f9fff0;
+  -webkit-text-stroke: 1px #2b2b2b;
+  background-color: #1a6aff;
   max-height: fit-content;
 }
 
@@ -44,8 +44,8 @@ main {
   font-family: "Jost", sans-serif;
   text-align: center;
   font-size: 1.2rem;
-  background-color: #f3ffe3;
-  color: #a9a9a9;
+  background-color: #f9fff0;
+  color: #2b2b2b;
 }
 
 .menu {
@@ -53,7 +53,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 50px;
-  background-color: #afcbff;
+  background-color: #1a6aff;
   margin-left: calc(50% - 50vw);
   width: 100vw;
 }
@@ -65,7 +65,7 @@ header {
   background-color: #ececec;
   font-family: "Jost", sans-serif;
   position: relative;
-  color: #a9a9a9;
+  color: #2b2b2b;
   margin-left: calc(50% - 50vw);
   width: 100vw;
 }
@@ -73,7 +73,7 @@ header {
 .menu_desc {
   font-family: "Jost", sans-serif;
   font-size: 1rem;
-  color: #757373;
+  color: #2b2b2b;
   background-color: #ececec;
   width: 100vw;
   margin: 1rem;
@@ -85,7 +85,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  background-color: #afcbff;
+  background-color: #f9fff0;
   margin-left: calc(50% - 50vw);
   width: 100vw;
 }
@@ -104,14 +104,14 @@ img {
 .menu_item {
   text-align: center;
   font-size: 15px;
-  color: #7f7f7f;
+  color: #2b2b2b;
   font-family: "Jost", sans-serif;
 }
 
 footer {
   /*footer background*/
 
-  background-color: #afcbff;
+  background-color: #1a6aff;
   display: flex;
   align-items: center;
 }
@@ -124,7 +124,7 @@ li {
 .icons a {
   margin-right: 0;
   margin-left: auto;
-  color: #f3ffe3;
+  color: #f9fff0;
   font-size: 20px;
   display: flex;
   align-content: center;

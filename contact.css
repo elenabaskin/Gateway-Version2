@@ -29,7 +29,7 @@ body {
 
 header {
   font-family: "Shrikhand", cursive;
-  color: #ffffd1;
+  color: #2b2b2b;
   -webkit-text-stroke: 1px #1a6aff;
   background-color: white;
   font-size: 1.3rem;
@@ -79,10 +79,6 @@ input[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
   font-family: "Jost", sans-serif;
-}
-
-.input[type="submit"]:hover {
-  background-color: #afcbff;
 }
 
 .container {

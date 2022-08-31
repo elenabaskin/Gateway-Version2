@@ -5,10 +5,10 @@ body {
 }
 
 .nav {
-  background-color: #fbe4ff;
+  background-color: #fef5ff;
   overflow: hidden;
   font-size: 20px;
-  color: #1a6aff;
+  color: #0f63ff;
   max-height: 5rem;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 .nav a {
   float: left;
-  color: #1a6aff;
+  color: #0f63ff;
   font-family: "Jost", sans-serif;
   text-align: center;
   padding: 14px;
@@ -30,7 +30,7 @@ body {
 
 header {
   font-family: "Shrikhand", cursive;
-  color: #1a6aff;
+  color: #0f63ff;
   -webkit-text-stroke: 1px #fef5ff;
   background-color: #f9fff0;
   font-size: 1.3rem;
@@ -44,7 +44,7 @@ header {
 }
 
 section {
-  border: 5px dotted #1a6aff;
+  border: 5px dotted #0f63ff;
   border-radius: 15px;
   margin: 0 auto;
   max-width: 500px;
@@ -55,14 +55,14 @@ h3 {
   font-family: "Shrikhand", cursive;
   text-align: center;
   font-size: 1.5rem;
-  color: #1a6aff;
+  color: #0f63ff;
   background-color: #fef5ff;
 }
 
 h2 {
   font-family: "Jost", sans-serif;
   text-align: center;
-  color: #1a6aff;
+  color: #0f63ff;
   background-color: #fef5ff;
 }
 
@@ -75,12 +75,12 @@ img {
 }
 
 mark {
-  background-color: #ffffd1;
+  background-color: #ffabab;
   font-size: 1.2rem;
 }
 
 .expire {
-  color: #ff3838;
+  color: #e6007a;
 }
 
 footer {
@@ -98,7 +98,7 @@ li {
 /*how the icons look*/
 .icons a {
   margin-right: 0;
-  color: #1a6aff;
+  color: #0f63ff;
   font-size: 15px;
   display: flex;
   align-content: center;

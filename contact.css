@@ -4,46 +4,50 @@ body {
 }
 
 .nav {
-  background-color: #ffffd1;
+  background-color: #fef5ff;
   overflow: hidden;
   font-size: 20px;
-  color: #1a6aff;
+  color: #2b2b2b;
   max-height: 5rem;
 }
 
 .logo {
-  font-family: "Shrikhand", cursive;
+  font-family: 'Shrikhand', cursive;
   font-size: 1.2em;
   float: left;
   padding: 14px 16px;
 }
 .nav a {
   float: left;
-  color: #1a6aff;
-  font-family: "Jost", sans-serif;
+  color: #2b2b2b;
+  font-family: 'Jost', sans-serif;
   text-align: center;
   padding: 14px;
   text-decoration: none;
   font-size: 18px;
 }
 
+.nav a:hover {
+  text-decoration: underline;
+}
+
 header {
-  font-family: "Shrikhand", cursive;
+  font-family: 'Shrikhand', cursive;
   color: #2b2b2b;
-  -webkit-text-stroke: 1px #1a6aff;
+  -webkit-text-stroke: 1px #2b2b2b;
   background-color: white;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
 label {
-  font-family: "Jost", sans-serif;
+  font-family: 'Jost', sans-serif;
   font-size: 20px;
 }
 
-input[type="text"] {
+input[type='text'] {
   margin: 5px 0;
-  border-color: #ffffd1;
+  border-color: #fef5ff;
   border-radius: 4px;
   width: 50%;
   height: 2rem;
@@ -59,7 +63,7 @@ select {
 
 textarea {
   width: 100%;
-  border-color: #ffffd1;
+  border-color: #fef5ff;
   border-radius: 4px;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -71,21 +75,25 @@ textarea {
     flex-wrap: wrap;
   }*/
 
-input[type="submit"] {
+input[type='submit'] {
   background-color: white;
-  color: #1a6aff;
+  color: #2b2b2b;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-family: "Jost", sans-serif;
+  font-family: 'Jost', sans-serif;
+}
+
+input[type='submit']:hover {
+  background-color: #ffcad4;
 }
 
 .container {
   border-radius: 5px;
-  background-color: #ffffd1;
+  background-color: #fef5ff;
   padding: 20px;
-  color: #1a6aff;
+  color: #2b2b2b;
   font-size: 20px;
 }
 
@@ -103,7 +111,7 @@ li {
 
 .icons a {
   margin-right: 0;
-  color: #1a6aff;
+  color: #2b2b2b;
   font-size: 15px;
   display: flex;
   align-content: center;

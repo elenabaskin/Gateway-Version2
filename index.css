@@ -4,27 +4,31 @@ body {
 }
 
 .nav {
-  background-color: #fffcfa;
+  background-color: #fef5ff;
   overflow: hidden;
   font-size: 20px;
-  color: #1a6aff;
+  color: #2b2b2b;
   max-height: 5rem;
 }
 
 .logo {
-  font-family: "Shrikhand", cursive;
+  font-family: 'Shrikhand', cursive;
   font-size: 1.2em;
   float: left;
   padding: 14px 16px;
 }
 .nav a {
   float: left;
-  color: #1a6aff;
-  font-family: "Jost", sans-serif;
+  color: #2b2b2b;
+  font-family: 'Jost', sans-serif;
   text-align: center;
   padding: 14px;
   text-decoration: none;
   font-size: 18px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
 }
 
 .hero-image {
@@ -35,40 +39,47 @@ body {
   align-items: center;
   text-align: center;
   /*hero image*/
-  background-image: url("https://i.pinimg.com/originals/de/11/d2/de11d2e63a023cc6126f0c7e6c8aa54f.jpg");
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/692/372/original/strawberries-splashing-into-pink-milk-vector.jpg');
   position: relative;
   background-size: cover;
 }
 
 .hero-title {
-  color: #fffcfa;
+  color: #fef5ff;
   font-size: 5em;
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1px #2b2b2b;
 }
 
 .hero-subtitle {
   font-size: 20px;
   color: #2b2b2b;
   font-weight: bold;
+  background-color: white;
+  border-radius: 5px;
 }
 
-input[type="submit"] {
-  background-color: #fffcfa;
+input[type='submit'] {
+  background-color: #fef5ff;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-family: "Jost", sans-serif;
+  font-family: 'Jost', sans-serif;
   font-size: 25px;
-  color: #1a6aff;
+  color: #2b2b2b;
   text-align: center;
   text-decoration: none;
+}
+
+input[type='submit']:hover {
+  background-color: white;
+  text-decoration: underline;
 }
 
 footer {
   /*footer background*/
   padding: 10px 0;
-  background-color: #fffcfa;
+  background-color: #fef5ff;
   display: flex;
   align-items: center;
 }
@@ -80,7 +91,7 @@ li {
 /*how the icons look*/
 .icons a {
   margin-right: 0;
-  color: #1a6aff;
+  color: #2b2b2b;
   font-size: 15px;
   display: flex;
   align-content: center;

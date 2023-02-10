@@ -8,32 +8,36 @@ body {
   background-color: #fef5ff;
   overflow: hidden;
   font-size: 20px;
-  color: #0f63ff;
+  color: #2b2b2b;
   max-height: 5rem;
 }
 
 .logo {
-  font-family: "Shrikhand", cursive;
+  font-family: 'Shrikhand', cursive;
   font-size: 1.2em;
   float: left;
   padding: 14px 16px;
 }
 .nav a {
   float: left;
-  color: #0f63ff;
-  font-family: "Jost", sans-serif;
+  color: #2b2b2b;
+  font-family: 'Jost', sans-serif;
   text-align: center;
   padding: 14px;
   text-decoration: none;
   font-size: 18px;
 }
 
+.nav a:hover {
+  text-decoration: underline;
+}
+
 header {
-  font-family: "Shrikhand", cursive;
-  color: #0f63ff;
+  font-family: 'Shrikhand', cursive;
+  color: #2b2b2b;
   -webkit-text-stroke: 1px #fef5ff;
   background-color: #f9fff0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -44,7 +48,7 @@ header {
 }
 
 section {
-  border: 5px dotted #0f63ff;
+  border: 5px dotted #2b2b2b;
   border-radius: 15px;
   margin: 0 auto;
   max-width: 500px;
@@ -52,17 +56,17 @@ section {
 }
 
 h3 {
-  font-family: "Shrikhand", cursive;
+  font-family: 'Shrikhand', cursive;
   text-align: center;
   font-size: 1.5rem;
-  color: #0f63ff;
+  color: #2b2b2b;
   background-color: #fef5ff;
 }
 
 h2 {
-  font-family: "Jost", sans-serif;
+  font-family: 'Jost', sans-serif;
   text-align: center;
-  color: #0f63ff;
+  color: #2b2b2b;
   background-color: #fef5ff;
 }
 
@@ -75,12 +79,12 @@ img {
 }
 
 mark {
-  background-color: #ffabab;
+  background-color: #ffcad4;
   font-size: 1.3rem;
 }
 
 .expire {
-  color: #e6007a;
+  color: #87b76f;
 }
 
 footer {
@@ -98,7 +102,7 @@ li {
 /*how the icons look*/
 .icons a {
   margin-right: 0;
-  color: #0f63ff;
+  color: #2b2b2b;
   font-size: 15px;
   display: flex;
   align-content: center;

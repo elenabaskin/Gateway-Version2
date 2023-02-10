@@ -1,51 +1,57 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f9fff0;
+  background-color: #fef5ff;
 }
 
 .nav {
-  background-color: #f9fff0;
+  background-color: #fef5ff;
   overflow: hidden;
   font-size: 20px;
-  color: #1a6aff;
+  color: #2b2b2b;
   max-height: 5rem;
   padding: 0;
 }
 
 .logo {
-  font-family: "Shrikhand", cursive;
+  font-family: 'Shrikhand', cursive;
   font-size: 1.2em;
   float: left;
   padding: 14px 16px;
 }
 .nav a {
   float: left;
-  color: #1a6aff;
-  font-family: "Jost", sans-serif;
+  color: #2b2b2b;
+  font-family: 'Jost', sans-serif;
   text-align: center;
   padding: 14px;
   text-decoration: none;
   font-size: 18px;
 }
 
+.nav a:hover {
+  text-decoration: underline;
+}
+
 main {
-  font-family: "Shrikhand", cursive;
+  font-family: 'Shrikhand', cursive;
   text-align: center;
   font-size: 2rem;
   vertical-align: top;
-  color: #f9fff0;
+  color: #fef5ff;
   -webkit-text-stroke: 1px #2b2b2b;
-  background-color: #1a6aff;
+  background-color: white;
   max-height: fit-content;
 }
 
 .ordering {
-  font-family: "Jost", sans-serif;
+  font-family: 'Jost', sans-serif;
   text-align: center;
   font-size: 1.2rem;
-  background-color: #f9fff0;
+  background-color: #fef5ff;
   color: #2b2b2b;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 section {
@@ -53,7 +59,7 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 50px;
-  background-color: #1a6aff;
+  background-color: white;
   margin-left: calc(50% - 50vw);
   width: 100vw;
 }
@@ -62,8 +68,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #ececec;
-  font-family: "Jost", sans-serif;
+  background-color: white;
+  font-family: 'Jost', sans-serif;
   position: relative;
   color: #2b2b2b;
   margin-left: calc(50% - 50vw);
@@ -71,10 +77,10 @@ header {
 }
 
 .menu_desc {
-  font-family: "Jost", sans-serif;
+  font-family: 'Jost', sans-serif;
   font-size: 1rem;
   color: #2b2b2b;
-  background-color: #ececec;
+  background-color: white;
   width: 100vw;
   margin: 1rem;
   text-align: center;
@@ -85,7 +91,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  background-color: #f9fff0;
+  background-color: white;
   margin-left: calc(50% - 50vw);
   width: 100vw;
 }
@@ -105,13 +111,13 @@ img {
   text-align: center;
   font-size: 15px;
   color: #2b2b2b;
-  font-family: "Jost", sans-serif;
+  font-family: 'Jost', sans-serif;
 }
 
 footer {
   /*footer background*/
 
-  background-color: #1a6aff;
+  background-color: #fef5ff;
   display: flex;
   align-items: center;
 }
@@ -124,7 +130,7 @@ li {
 .icons a {
   margin-right: 0;
   margin-left: auto;
-  color: #f9fff0;
+  color: #2b2b2b;
   font-size: 20px;
   display: flex;
   align-content: center;
